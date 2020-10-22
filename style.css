@@ -297,6 +297,9 @@ p {
 	font-size: 4rem;
 	font-weight: 500;
 }
+#projects .project-info h1 span {
+	font-size: 3rem;
+}
 #projects .project-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
@@ -485,12 +488,12 @@ p {
 @keyframes text_reveal {
 	100% {
 		color: white;
+		font-weight: 500;
 	}
 }
 @keyframes text_reveal_name {
 	100% {
 		color: crimson;
-		font-weight: 500;
 	}
 }
 /* End Keyframes */
