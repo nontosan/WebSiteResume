@@ -314,6 +314,22 @@ p {
 	overflow: hidden;
 	position: relative;
 }
+#projects .project-img2 {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img2:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	/*background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
+	opacity: .7;
+}
+
 #projects .project-img:after {
 	content: '';
 	position: absolute;
@@ -321,7 +337,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	/*background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
 	opacity: .7;
 }
 #projects .project-img img {
