@@ -308,6 +308,10 @@ p {
 #projects .project-info p {
 	color: white;
 }
+#projects .project-info a {
+	font-size: 1.8rem;
+	color: #DC143C;
+}
 #projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
